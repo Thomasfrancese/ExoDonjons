@@ -2,7 +2,6 @@ package game;
 
 public class Wizard extends Character {
 
-
     private int levelMagic;
     private int philter;
 

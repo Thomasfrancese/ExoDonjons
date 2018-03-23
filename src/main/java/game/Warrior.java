@@ -36,6 +36,6 @@ public class Warrior extends Character {
 
     public String toString() {
 
-        return super.toString() + "\n Ta force: " + getStrong() + "\n Ton bouclier: ";
+        return super.toString() + "\n Ta force: " + getStrong() + "\n Ton bouclier: " + getShield();
     }
 }

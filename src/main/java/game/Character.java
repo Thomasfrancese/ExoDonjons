@@ -1,11 +1,10 @@
 package game;
 
-public class Character {
+public abstract class Character {
 
     protected String name;
     protected String image;
     protected int life;
-
 
     public String getName() {
         return name;
