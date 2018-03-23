@@ -5,7 +5,6 @@ public class Warrior extends Character {
     private int strong;
     private int shield;
 
-
     public int getStrong() {
         return strong;
     } //Force du guerrier
@@ -35,8 +34,8 @@ public class Warrior extends Character {
         this.shield = pShiel;
     }
 
-    public String toString(){
+    public String toString() {
 
-        return super.toString() + "\n Ta force: " + strong + "\n Ton bouclier: " + shield;
+        return super.toString() + "\n Ta force: " + getStrong() + "\n Ton bouclier: ";
     }
 }

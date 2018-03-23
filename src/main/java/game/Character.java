@@ -40,7 +40,7 @@ public class Character {
 
     }
 
-    public Character(String pName, String pImage, int pLife, String pCategory){
+    public Character(String pName, String pImage, int pLife){
         System.out.println("Création d'un personnage avec paralmètre");
         name = pName;
         image = pImage;
