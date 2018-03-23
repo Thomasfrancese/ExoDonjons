@@ -1,5 +1,6 @@
-character\NewWarrior.class
-character\Main.class
-character\Weapon.class
-character\Spell.class
-character\NewWizard.class
+game\Warrior.class
+game\Weapon.class
+game\Wizard.class
+game\Character.class
+game\Main.class
+game\Spell.class
